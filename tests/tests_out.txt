@@ -1,0 +1,52 @@
+[==========] Running 19 tests from 3 test suites.
+[----------] Global test environment set-up.
+[----------] 9 tests from Arguments
+[ RUN      ] Arguments.no_args
+[       OK ] Arguments.no_args (2 ms)
+[ RUN      ] Arguments.unknown_args
+[       OK ] Arguments.unknown_args (1 ms)
+[ RUN      ] Arguments.missing_arg_vals
+[       OK ] Arguments.missing_arg_vals (1 ms)
+[ RUN      ] Arguments.missing_host_val
+[       OK ] Arguments.missing_host_val (2 ms)
+[ RUN      ] Arguments.missing_mode_val
+[       OK ] Arguments.missing_mode_val (1 ms)
+[ RUN      ] Arguments.missing_port_val
+[       OK ] Arguments.missing_port_val (1 ms)
+[ RUN      ] Arguments.unknown_mode
+[       OK ] Arguments.unknown_mode (2 ms)
+[ RUN      ] Arguments.bad_port_over
+[       OK ] Arguments.bad_port_over (1 ms)
+[ RUN      ] Arguments.bad_port_under
+[       OK ] Arguments.bad_port_under (1 ms)
+[----------] 9 tests from Arguments (18 ms total)
+
+[----------] 5 tests from UDP_Tests
+[ RUN      ] UDP_Tests.plus
+[       OK ] UDP_Tests.plus (13 ms)
+[ RUN      ] UDP_Tests.minus
+[       OK ] UDP_Tests.minus (13 ms)
+[ RUN      ] UDP_Tests.mul
+[       OK ] UDP_Tests.mul (13 ms)
+[ RUN      ] UDP_Tests.div
+[       OK ] UDP_Tests.div (13 ms)
+[ RUN      ] UDP_Tests.bad_input
+[       OK ] UDP_Tests.bad_input (13 ms)
+[----------] 5 tests from UDP_Tests (67 ms total)
+
+[----------] 5 tests from TCP_Tests
+[ RUN      ] TCP_Tests.plus
+[       OK ] TCP_Tests.plus (16 ms)
+[ RUN      ] TCP_Tests.minus
+[       OK ] TCP_Tests.minus (15 ms)
+[ RUN      ] TCP_Tests.mul
+[       OK ] TCP_Tests.mul (14 ms)
+[ RUN      ] TCP_Tests.div
+[       OK ] TCP_Tests.div (22 ms)
+[ RUN      ] TCP_Tests.bad_input
+[       OK ] TCP_Tests.bad_input (15 ms)
+[----------] 5 tests from TCP_Tests (84 ms total)
+
+[----------] Global test environment tear-down
+[==========] 19 tests from 3 test suites ran. (171 ms total)
+[  PASSED  ] 19 tests.
